@@ -1,0 +1,57 @@
+.main-button{
+    width: 100px;
+    height: 100px;
+
+    border: none;
+    border-radius: 50%;
+
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    cursor: pointer;
+
+    position: absolute;
+
+    top: 100%;
+    left: 100%;
+}
+body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.start-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.start-title h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+}
+.start-title p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.startButton{
+    border: none;
+    border-radius: 20px;
+    height: 100px;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+}
+.start-title.repeate{
+    display: none;
+}
